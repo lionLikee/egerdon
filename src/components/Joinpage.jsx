@@ -18,7 +18,7 @@ export function Joinpage(){
                 login_pw:password,
                 user_nickname:name
             }
-            const response=await axiosInstance.post('/signup/',newMember);
+            const response=await axiosInstance.post('users/signup',newMember);
             navigate('/home/login');
             console.log(response);
         }
