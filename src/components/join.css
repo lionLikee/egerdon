@@ -1,0 +1,73 @@
+*{
+    margin:auto;
+}
+
+.textJoin{
+    margin-top: 50px;
+    margin-left: 54px;
+}
+
+.joinpage{
+    width:1800px;
+    height:950px;
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: gray;
+}
+
+.joinBox{
+    width:550px;
+    height:490px;
+    border-radius: 15px;
+    background-color: white;
+}
+
+.inputJoinBox{
+    width:510px;
+    height:350px;
+    display: flex;
+    flex-direction: column;
+    background-color: none;
+}
+
+.nameRegister{
+    width:430px;
+    height:40px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+.idRegister{
+    width:430px;
+    height:40px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+.passwordRegister{
+    width:430px;
+    height:40px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+.registerBtn{
+    width:430px;
+    height:80px;
+}
+
+.textName{
+    margin-top: 10px;
+    margin-left:32px;
+}
+
+.textId{
+    margin-left:32px;
+}
+
+.textPassword{
+    margin-left:32px;
+}
+
